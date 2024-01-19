@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🌍 Lista de países usando Next.js
 
-## Getting Started
+Este projeto é uma aplicação web que utiliza a API REST Countries para buscar e exibir informações sobre diferentes países. A aplicação foi desenvolvida utilizando as seguintes tecnologias:
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React:** Biblioteca JavaScript de código aberto para construir interfaces de usuário, utilizada para criar componentes reutilizáveis e dinâmicos na aplicação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **React Server Components:** Utilizado para criar componentes no lado do servidor, proporcionando uma renderização mais eficiente e uma experiência de usuário aprimorada.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Tailwind CSS:** Estrutura de design-first que simplifica a estilização da aplicação, permitindo a criação de layouts responsivos de forma rápida e eficiente.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Funcionalidades
 
-## Learn More
+- **Buscar e Exibir Dados de Países:**
+  - Utiliza a API REST Countries para obter informações detalhadas sobre os países.
 
-To learn more about Next.js, take a look at the following resources:
+- **Layout Responsivo:**
+  - Criado um layout que se adapta de forma responsiva a diferentes dispositivos, incluindo celulares, tablets e desktops.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Lista de Países:**
+  - Implementação da funcionalidade de exibir uma lista de países, incluindo suas bandeiras e nomes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Páginas de Detalhes:**
+  - Criação de páginas de detalhes para cada país, mostrando informações como a capital, a população, o continente, a região e os idiomas falados.
 
-## Deploy on Vercel
+- **Formatação de População:**
+  - Exibição do número da população de forma simplificada, por exemplo, 1.000.000 como 1M e 1000 como 1K.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Fronteiras dos Países:**
+  - Implementação de uma funcionalidade que exibe a lista de países que fazem fronteira com o país selecionado.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Imagem do Projeto
+[![image-2024-01-19-120351063.png](https://i.postimg.cc/HkN48X51/image-2024-01-19-120351063.png)](https://postimg.cc/JsbB9yPp)
+
+## Como Executar
+
+1. **Clone o Repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
